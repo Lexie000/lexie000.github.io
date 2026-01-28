@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title>Jinmin (Lexie) Li | Data Analytics</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/custom.css" />
 	</head>
 	<body class="is-preload">
 
@@ -20,20 +21,19 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<span class="icon fa-user"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+								<h2>Jinmin(Lexie) Li</h2>
+								<p>	MDA @ Western | Python · SQL · Power BI</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#resume">Resume</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -44,58 +44,137 @@
 					<div id="main">
 
 						<!-- Intro -->
-							<article id="intro">
+							<article id="intro" class="intro-wide">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+
+								<!-- Float figure (wrap text around PNG) -->
+								<img class="intro-figure" src="images/IMG_0646.jpeg" alt="Jinmin (Lexie) Li" />
+								<!-- Intro text -->
+								 <h3>
+									Hi there!
+								</h3>
+							
+								<p>
+									Welcome to my personal website! <br>
+									I’m Jinmin (Lexie) Li. I’m currently pursuing a Master of Data Analytics at Western University.
+								<br><br>
+									I’m actively seeking a co-op/internship and I’m especially excited to apply what I’ve learned in a professional setting, contribute to real projects, and keep growing fast through hands-on work.
+									I’m graduating in August, and I’m open to opportunities after that.
+									Feel free to check out my <a href="#projects">projects</a> or my <a href="#resume">resume</a>!
+								</p>
+							</article> 
+							
+
+
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+
+   								 <!-- 1) Used Car Prices (WITH LINKS) -->
+								<section class="projects">
+									<div class="project-media">
+									<img src="images/car-price.jpeg" alt="Used car price prediction preview" />
+									</div>
+									 <div class="project-body">
+										<h3>Predicting Used Car Prices with Regression Models (R)</h3>
+										<p class="project-meta">MDA9159 Course Project · Western University · Dec 2025</p>
+
+										<ul>
+										<li>Produced an analysis-ready dataset through structured preprocessing and feature engineering, including quality checks, outlier handling, and standardized categorical variables to support reliable modeling.</li>
+										<li>Developed and compared interpretable multiple linear regression models for log(price), using AIC/BIC and VIF/GVIF to guide model selection and specification testing.</li>
+										<li>Validated robustness via diagnostic checks and cross-validation; delivered a concise report with reproducible outputs, achieving ~75.8% variance explained.</li>
+										</ul>
+
+										<div class="project-actions">
+										<a class="button small" href="https://github.com/Lexie000/Predicting-Used-Car-Prices-with-Regression-Models" target="_blank" rel="noopener">GitHub</a>
+										</div>
+										<p class="project-tags">Tags: Regression, Feature Engineering, Model Diagnostics, R</p>
+									</div>
+								</section>
+
+								 <!-- 2) Cocoa Forecasting (WITH LINKS) -->
+								<section class="projects">
+									<div class="project-media">
+									<img src="images/cocoa-price.jpg" alt="Used car price prediction preview" />
+									</div>
+									 <div class="project-body">
+										<h3>Time Series Forecasting of Cocoa Prices (R)</h3>
+										<p class="project-meta">STA457 Course Project · University of Toronto · May 2025</p>
+										<ul>
+											<li>Developed forecasting models (ARIMA, SARIMA, ETS, ARIMAX, GARCH) using 30+ years of cocoa futures data.</li>
+											<li>Evaluated models with rolling/walk-forward validation and RMSE/MAE/MAPE; documented assumptions and diagnostics (stationarity, residual checks).</li>
+											<li>Quantified and communicated forecast uncertainty to support risk-aware decisions in commodity planning.</li>
+											<li>Built a reproducible workflow in R (tidyverse, forecast, ggplot2, rugarch, tseries) with reporting via RMarkdown.</li>
+										</ul>
+										<div class="project-actions">
+										<a class="button small" href="https://github.com/Lexie000/cocoa-forecasting-ETS-ARIMAX-GARCH" target="_blank" rel="noopener">GitHub</a>
+										</div>
+										<p class="project-tags">Tags:Time Series, ARIMA/SARIMA/ETS, GARCH, Forecasting, R</p>
+									</div>
+								</section>
+								
+								 <!-- 3) Vessl Prosthetics -->
+								<section class="projects">
+									<div class="project-media">
+									<img src="images/industry.png" alt="Vessl Prosthetics preview" />
+									</div>
+									 <div class="project-body">
+										<h3>Vessl Prosthetics CRM & Workflow Integration</h3>
+										<p class="project-meta">MDA 9160 Industry Project · Western University · Dec 2025</p>
+									<ul>
+										<li>Analyzed the company’s HubSpot, Fibery, and GA4 landscape and delivered three linked outputs: a data insights report, an integration design, and an efficiency plan.</li>
+										<li>Diagnosed segmentation and data-quality issues across 6,000+ contacts and proposed a streamlined persona model and clean-source framework to improve targeting and reporting.</li>
+										<li>Designed an achievable integration architecture (HubSpot as CRM, Fibery as internal project hub, Make for high-value automations), estimating ~20% reduction in manual data entry and clearer end-to-end customer tracking.</li>
+										<li>Collaborated with a 3-person team to divide workstreams, consolidate findings for non-technical stakeholders, and present recommendations (final grade 95%).</li>
+									</ul>
+									<div class="project-actions">
+										<a class="button small" href="https://github.com/Lexie000/Predicting-Used-Car-Prices-with-Regression-Models" target="_blank" rel="noopener">GitHub</a>
+									</div>
+									<p class="project-tags">Tags: CRM, HubSpot, GA4, Data Quality, Automation, Business Analysis</p>
+								
+									</div>
+								</section>
+
 							</article>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+						<!-- Resume -->
+							<article id="resume">
+								<h2 class="major">Resume</h2>
+								<span class="image main"><img src="resume-page.jpg" alt="" /></span>
+								<a class="button primary" href="Jinmin_Li_Resume.pdf" target="_blank" rel="noopener">View Resume (PDF)</a>								
+								<a class="button" href="Jinmin_Li_Resume.pdf" download>Download PDF</a>
+								<br/><br/>
+								<h3>About Me</h3>
+								<p>I’m Jinmin, an MDA student at Western University focused on analytics for finance, operations, and decision support.I’m seeking a Summer 2026 co-op and am open to full-time opportunities after graduation.</p>
+								<h3>Skills Highlights</h3>
+								<ul>
+									<li>Python, SQL, R, Power BI, Stata </li>
+									<li>Regression, time-series forecasting</li>
+									<li>Power BI, Tableau Interactive dashboarding </li>
+									<li>Project experience across pricing analytics, commodity forecasting, and CRM workflow integration</li>
+								</ul>
 							</article>
 
 						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+
+						<p>Feel free to reach out! I’m happy to connect about internships, projects, or collaboration.
+						</p>
+
+						<ul class="alt">
+							<li><strong>Email:</strong> <a href="mailto:jli3928">jli3928@uwo.ca</a></li>
+							<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jinmin0829/" target="_blank" rel="noopener"> Jinmin Li</a></li>
+							<li><strong>GitHub:</strong> <a href="https://github.com/Lexie000" target="_blank" rel="noopener">  Lexie000</a></li>
+							<li><strong>Location:</strong> London,ON (Open to relocation)</li>
+						</ul>
+
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/jinmin0829/" class="icon brands fa-linkedin" target="_blank" rel="noopener"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Lexie000" class="icon brands fa-github" target="_blank" rel="noopener"><span class="label">GitHub</span></a></li>
+							<li><a href="mailto:jli3928@uwo.ca" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						</article>
 
 						<!-- Elements -->
 							<article id="elements">
