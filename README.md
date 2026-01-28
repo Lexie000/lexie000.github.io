@@ -37,17 +37,13 @@ Open `index.html` directly in your browser, or run a simple local server:
   - https://html5up.net/license
 
 ### Background photo
-- `images/bg1.jpg` — photo taken by me (Jinmin / Lexie Li)
+- `images/bg1.jpg` — photo taken by me (Jinmin)
 
-### Project / page images
-List any non-self images you used (recommended):
-- `[Image filename]` — Photo/asset by **[Author/Source]**, **[License]**, **[Link]**
-  - Example (Unsplash, attribution optional but appreciated):
-    - `images/project_foo.jpg` — Photo by **[Photographer Name]** on **Unsplash** (https://unsplash.com), Unsplash License (https://unsplash.com/license)
 
 ### Libraries / assets used by the theme
 - Font Awesome (icons)
 - jQuery
 - Responsive Tools (AJ’s utilities)
+
 
 
