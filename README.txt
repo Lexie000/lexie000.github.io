@@ -50,4 +50,4 @@ List any non-self images you used (recommended):
 - jQuery
 - Responsive Tools (AJ’s utilities)
 
-> Note: If you reuse any third-party images, please ensure they are properly licensed for your intended use.
+
