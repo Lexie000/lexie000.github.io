@@ -1,30 +1,53 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# lexie000.github.io — Personal Portfolio
 
+This is my personal portfolio website (GitHub Pages), built on top of the **Dimension** theme by HTML5 UP and customized by me.
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
+## What’s inside
+- **Intro**: Short bio + program background
+- **Projects**: Project cards with links (GitHub / report / demo)
+- **Resume**: PDF download/view
+- **Contact**: Email, LinkedIn, GitHub
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Tech stack
+- Static site (HTML/CSS/JS)
+- Theme base: HTML5 UP “Dimension”
 
-(* = not included)
+## Local development
+Open `index.html` directly in your browser, or run a simple local server:
+- (Optional) VS Code Live Server extension
 
-AJ
-aj@lkn.io | @ajlkn
+## Customizations (what I changed)
+- Updated site copy and section structure (Intro / Projects / Resume / Contact)
+- Added custom styles in `assets/css/custom.css` (project cards, layout tweaks, etc.)
+- Replaced the default background image with my own photo: `images/bg1.jpg`
+- Added/updated project images in `images/` (see credits below)
 
+## File structure
+- `index.html` — main page content
+- `assets/css/main.css` — theme styles (from HTML5 UP)
+- `assets/css/custom.css` — my overrides/custom styling
+- `assets/js/` — theme scripts
+- `images/` — site images (background + project images)
+- `Jinmin_Li_Resume.pdf` — resume PDF
 
-Credits:
+## Credits & Licensing
+### Theme
+- **Dimension** by HTML5 UP (AJ) — licensed under **CC BY 3.0**
+  - https://html5up.net/dimension
+  - https://html5up.net/license
 
-	Demo Images:
-		Unsplash (unsplash.com)
+### Background photo
+- `images/bg1.jpg` — photo taken by me (Jinmin / Lexie Li)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### Project / page images
+List any non-self images you used (recommended):
+- `[Image filename]` — Photo/asset by **[Author/Source]**, **[License]**, **[Link]**
+  - Example (Unsplash, attribution optional but appreciated):
+    - `images/project_foo.jpg` — Photo by **[Photographer Name]** on **Unsplash** (https://unsplash.com), Unsplash License (https://unsplash.com/license)
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+### Libraries / assets used by the theme
+- Font Awesome (icons)
+- jQuery
+- Responsive Tools (AJ’s utilities)
+
+> Note: If you reuse any third-party images, please ensure they are properly licensed for your intended use.
