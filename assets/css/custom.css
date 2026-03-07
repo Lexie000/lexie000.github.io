@@ -53,6 +53,14 @@
   opacity: 0.85;
 }
 
+.project-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.9;
+}
+
 /* Gradient overlay on media */
 .project-media{
   position: relative;
